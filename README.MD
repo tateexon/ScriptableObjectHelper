@@ -1,0 +1,1 @@
+Adds some basic scriptable objects and helpers for it that I end up using a lot
