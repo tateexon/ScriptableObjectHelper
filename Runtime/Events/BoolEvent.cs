@@ -1,5 +1,5 @@
 using UnityEngine;
-namespace craztad.ScriptableObjectHelper.Events
+namespace Craztad.ScriptableObjectHelper
 {
 
     [CreateAssetMenu(fileName = "New Bool Event", menuName = "Game Events/Bool Event")]

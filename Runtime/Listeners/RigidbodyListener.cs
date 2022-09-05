@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace craztad.ScriptableObjectHelper.Events
+namespace Craztad.ScriptableObjectHelper
 {
     public class RigidbodyListener : AGameEventListener<Rigidbody, RigidbodyEvent, UnityRigidbodyEvent> { }
 }

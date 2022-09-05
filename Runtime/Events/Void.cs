@@ -1,4 +1,4 @@
-namespace craztad.ScriptableObjectHelper.Events
+namespace Craztad.ScriptableObjectHelper
 {
     [System.Serializable]
     public struct Void

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace craztad.ScriptableObjectHelper.Events
+namespace Craztad.ScriptableObjectHelper
 {
     [System.Serializable] public class UnityTransformEvent : UnityEvent<Transform> { }
 }

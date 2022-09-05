@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace craztad.ScriptableObjectHelper.Events
+namespace Craztad.ScriptableObjectHelper
 {
     public class LongListener : AGameEventListener<long, LongEvent, UnityLongEvent> { }
 }

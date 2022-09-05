@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace craztad.ScriptableObjectHelper.Events
+namespace Craztad.ScriptableObjectHelper
 {
     public abstract class AGameEventListener<T, GE, UER> : MonoBehaviour, IGameEventListener<T> where GE : AGameEvent<T> where UER : UnityEvent<T>
     {

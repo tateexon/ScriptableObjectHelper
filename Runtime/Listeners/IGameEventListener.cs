@@ -1,4 +1,4 @@
-namespace craztad.ScriptableObjectHelper.Events
+namespace Craztad.ScriptableObjectHelper
 {
     public interface IGameEventListener<T>
     {

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace craztad.ScriptableObjectHelper.Events
+namespace Craztad.ScriptableObjectHelper
 {
     public abstract class AGameEvent<T> : ScriptableObject
     {

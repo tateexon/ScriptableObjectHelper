@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace craztad.ScriptableObjectHelper.Events
+namespace Craztad.ScriptableObjectHelper
 {
     [CreateAssetMenu(fileName = "New Int Event", menuName = "Game Events/Int Event")]
     public class IntEvent : AGameEvent<int> { }
