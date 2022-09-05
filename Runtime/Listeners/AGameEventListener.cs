@@ -3,7 +3,6 @@ using UnityEngine.Events;
 
 namespace craztad.ScriptableObjectHelper.Events
 {
-
     public abstract class AGameEventListener<T, GE, UER> : MonoBehaviour, IGameEventListener<T> where GE : AGameEvent<T> where UER : UnityEvent<T>
     {
         [SerializeField] private GE gameEvent;
@@ -17,7 +16,6 @@ namespace craztad.ScriptableObjectHelper.Events
 
         private void OnEnable()
         {
-            // GameEvent.RegisterListener(this);
             if (gameEvent is null)
             {
                 return;
@@ -31,7 +29,6 @@ namespace craztad.ScriptableObjectHelper.Events
             {
                 return;
             }
-            // GameEvent.UnregisterListener(this);
             gameEvent.eventListeners -= OnEventRaised;
         }
 

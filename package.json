@@ -1,9 +1,9 @@
 {
   "name": "com.craztad.scriptableobjecthelper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "ScriptableObject Helper",
   "discription": "Adds some basic scriptable objects events and helpers that I end up using in a lot of projects",
-  "unity": "2020.4",
+  "unity": "2021.3",
   "keywords": [],
   "author": {
     "name": "tate",
